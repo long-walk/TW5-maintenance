@@ -1,0 +1,23 @@
+title: $:/plugins/long-walk/TW5-maintenance/tiddliFilterTester
+filter: [tag[TagName]!lsort[order]]
+
+
+''Filter:''
+<$edit-text field="filter" size=45 default="[tag[TagName]lsort[order]]" /> 
+
+<table style="border:none !important;"><tr><td style="border:none !important; width:50%">
+<$list filter={{!!filter}} >
+<!-- <$edit-text  field="modified"  size=15 />, -->
+<$view field="modified" format="date" template="DD mmm YYYY at 0hh:0mm"/>
+<$link>{{!!title}}</$link>
+<br/>
+</$list>
+</td><td style="border:none !important; width: 50%; vertical-align: top;">
+''Examples:''
+<lu>
+<li>[tag[TagName]lsort[order]]</li>
+<li>[all[shadows+tiddlers]tag[$:/tags/Image]]</li>
+<li>[all[shadows+tiddlers]type[image/jpeg],[image/gif],[image/png],[image/svg+xml]]</li>
+</lu>
+</td></tr>
+</table>

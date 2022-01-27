@@ -1,0 +1,13 @@
+title: $:/plugins/long-walk/TW5-maintenance/Images
+
+!! Internal Images
+<$list filter="[all[shadows+tiddlers]type[image/jpeg],[image/gif],[image/png],[image/svg+xml]]">
+<$link source={{!!title}}>
+<$image source={{!!title}} height="150px" tooltip={{!!title}}/>
+</$link>
+</$list>
+
+!! System icons
+<$list filter="[all[shadows+tiddlers]tag[$:/tags/Image]]">
+<$link source={{!!title}} tooltip={{!!title}}>{{}}</$link>
+</$list>

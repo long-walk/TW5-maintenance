@@ -1,0 +1,10 @@
+{
+    "title": "$:/plugins/long-walk/TW5-maintenance",
+    "description": "Should colect some maintenance tasks",
+    "author": "Thomas",
+    "version": "0.0.1",
+    "core-version": ">=5.2.0",
+    "source": "https://github.com/long-walk/TW5-maintenance.git",
+    "plugin-type": "plugin",
+    "list": "Readme TiddlerSize PluginSize Images tiddliFilterTester"
+}

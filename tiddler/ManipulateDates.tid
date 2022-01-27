@@ -1,0 +1,15 @@
+title: $:/plugins/long-walk/TW5-maintenance/ManipulateDates
+filter: [tag[TagName]!lsort[order]]
+
+
+''Filter:''
+<$edit-text field="filter" size=45 default="[tag[TagName]lsort[order]]" /> 
+
+<$list filter={{!!filter}} >
+<$edit-text  field="modified"  size=15 />, 
+<$view field="modified" format="date" template="0DD.0MM.YYYY 0hh:0mm"/>, 
+<$link>{{!!title}}</$link>
+<br/>
+ 
+</$list>
+

@@ -1,0 +1,20 @@
+title: $:/plugins/long-walk/TW5-maintenance/Readme
+
+This Plugin should colect some maintenance tools in one plugin
+Meybe this is growning in the future
+
+!! ~TiddlerSize ~PluginSize
+* Show the tiddler sortet with their size
+
+:This is code is from Tobias Beer
+:http://tobibeer.github.io/tb5/#How%20Big%20Are%20Tiddlers%20In%20Size%3F
+
+!! List Images
+* Show all included Images
+
+!! Tiddlii Filter Tester
+* test tidly and show results
+
+
+!! Plugin Source
+:https://github.com/long-walk/TW5-maintenance.git
