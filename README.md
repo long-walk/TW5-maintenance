@@ -7,8 +7,11 @@ This plugin provides provides some small tools.
 *shows all pictures
 *Tiddlywiki fillter tester 
 
-To install drag and drop this link to the 
+
+!! Install Plugin
+Download index.html, open it and drag and drop the plugin link to your tiddlywiki
 https://github.com/long-walk/TW5-dynamicTabs/blob/master/target/index.html
+
 
 ## License
 
