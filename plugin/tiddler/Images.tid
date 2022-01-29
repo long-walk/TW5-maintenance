@@ -1,5 +1,7 @@
 title: $:/plugins/long-walk/TW5-maintenance/Images
 
+\define copyActions() <$action-sendmessage $message="tm-copy-to-clipboard" $param=<<imageTitle>>/>
+
 !! Internal Images
 <$list filter="[all[shadows+tiddlers]type[image/jpeg],[image/gif],[image/png],[image/svg+xml]]">
 <$link source={{!!title}}>
@@ -8,6 +10,14 @@ title: $:/plugins/long-walk/TW5-maintenance/Images
 </$list>
 
 !! System icons
+<<.tip "Click an icon to copy the title to the clipboard">>
+<div class="tc-image-chooser">
+<$macrocall $name="image-picker-list" filter="[all[shadows+tiddlers]tag[$:/tags/Image]]" actions=<<copyActions>> />
+</div>
+
+<!--
 <$list filter="[all[shadows+tiddlers]tag[$:/tags/Image]]">
 <$link source={{!!title}} tooltip={{!!title}}>{{}}</$link>
 </$list>
+-->
+

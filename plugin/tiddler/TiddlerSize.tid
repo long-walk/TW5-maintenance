@@ -5,6 +5,3 @@ title: $:/plugins/long-walk/TW5-maintenance/TiddlerSize
 <$link><$view field=title/></$link><br>
 </$list>
 
-!!! Used Macros
-* [[$:/macros/skeeve/length.js]]
-* [[$:/core/modules/filters/lsort.js]]

@@ -3,14 +3,14 @@
 **NOTE:** This plugin is not actively maintained.
 
 ### This plugin provides provides some small tools.
-* show biggest tiddlers
+* list biggest tiddlers
+* list biggest plugins
 * shows all pictures
 * Tiddlywiki fillter tester 
 
 
 ## Install Plugin
-* Download with grean button aboth -> Ddownload Zip
-* Open Zip and open target/index.htmli
+* Open this link https://long-walk.github.io/
 * Drag and Drop the plugin link to your tiddlywiki
 
 

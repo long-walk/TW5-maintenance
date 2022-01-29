@@ -4,7 +4,3 @@ title: $:/plugins/long-walk/TW5-maintenance/PluginSize
 <$macrocall $name="length" tiddler={{!!title}}/>
 <$link><$view field=title/></$link><br>
 </$list>
-
-!!! Used Macros
-* [[$:/macros/skeeve/length.js]]
-* [[$:/core/modules/filters/lsort.js]]
