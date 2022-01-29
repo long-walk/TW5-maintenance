@@ -2,15 +2,16 @@
 
 **NOTE:** This plugin is not actively maintained.
 
-This plugin provides provides some small tools.
-*show biggest tiddlers
-*shows all pictures
-*Tiddlywiki fillter tester 
+### This plugin provides provides some small tools.
+* show biggest tiddlers
+* shows all pictures
+* Tiddlywiki fillter tester 
 
 
-!! Install Plugin
-Download index.html, open it and drag and drop the plugin link to your tiddlywiki
-https://github.com/long-walk/TW5-dynamicTabs/blob/master/target/index.html
+## Install Plugin
+* Download with grean button aboth -> Ddownload Zip
+* Open Zip and open target/index.htmli
+* Drag and Drop the plugin link to your tiddlywiki
 
 
 ## License
